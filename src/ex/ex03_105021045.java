@@ -16,10 +16,10 @@ public class ex03_105021045 {
 		System.out.print("停多久時間(分鐘)="); 
         int t = Scn.nextInt(); 
         int c = t/30;
-		    if (t<120){
+		    if (t<=120){
 		    System.out.print("需要繳交的停車費="+c*30);
 		}else{
-			if (t>=120 && t <= 240){
+			if (t>120 && t<=240){
 		    int d = c-4;
 		    System.out.print("需要繳交的停車費="+(d*40+120));
 	    }else{
