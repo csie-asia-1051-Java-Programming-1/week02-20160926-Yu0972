@@ -13,7 +13,7 @@ public class ex01_105021045 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner Scn = new Scanner(System.in);
-		System.out.print("t="); 
+		System.out.print("分鐘="); 
         int t = Scn.nextInt(); 
 		float p = 0.5f;
 		    if (t<600){
@@ -22,7 +22,7 @@ public class ex01_105021045 {
 			if (t>=600 && t<1200){
 				System.out.print("電話費為="+p*t*0.9);
 	    }else{
-		    if(t>1200){
+		    if(t>=1200){
 		    	System.out.print("電話費為="+p*t*0.79);
 				}
 			}
